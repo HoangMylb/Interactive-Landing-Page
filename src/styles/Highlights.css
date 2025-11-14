@@ -1,0 +1,36 @@
+/* ==================== HIGHLIGHTS SECTION STYLES ==================== */
+
+.highlights {
+  background: var(--light-gray);
+  padding: 5rem 0;
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* ==================== MOBILE RESPONSIVE ==================== */
+
+@media (max-width: 768px) {
+  .highlights {
+    padding: 3rem 0;
+  }
+
+  .highlights-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .highlights {
+    padding: 2rem 0;
+  }
+
+  .highlights-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

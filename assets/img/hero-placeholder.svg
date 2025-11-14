@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="240" fill="url(#grad1)" opacity="0.1"/>
+  
+  <!-- Main Device Frame -->
+  <rect x="100" y="80" width="300" height="340" rx="20" fill="white" stroke="url(#grad1)" stroke-width="8"/>
+  
+  <!-- Screen Content -->
+  <rect x="110" y="90" width="280" height="320" rx="15" fill="url(#grad1)"/>
+  
+  <!-- Light elements on screen -->
+  <circle cx="160" cy="140" r="25" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="340" cy="180" r="30" fill="rgba(255,255,255,0.2)"/>
+  
+  <!-- Decorative shapes -->
+  <rect x="130" y="200" width="240" height="15" rx="7" fill="rgba(255,255,255,0.4)"/>
+  <rect x="130" y="230" width="200" height="15" rx="7" fill="rgba(255,255,255,0.3)"/>
+  <rect x="130" y="260" width="220" height="15" rx="7" fill="rgba(255,255,255,0.35)"/>
+  
+  <!-- Accent shapes floating -->
+  <g opacity="0.6">
+    <circle cx="400" cy="150" r="40" fill="url(#grad2)"/>
+    <polygon points="50,350 80,380 20,380" fill="url(#grad2)"/>
+  </g>
+  
+  <!-- Corner accent -->
+  <rect x="70" y="60" width="100" height="100" rx="20" fill="url(#grad2)" opacity="0.15"/>
+  
+  <!-- Modern tech indicator -->
+  <g opacity="0.8">
+    <circle cx="250" cy="410" r="8" fill="#667eea"/>
+    <circle cx="230" cy="410" r="6" fill="#764ba2" opacity="0.6"/>
+    <circle cx="270" cy="410" r="6" fill="#764ba2" opacity="0.6"/>
+  </g>
+</svg>

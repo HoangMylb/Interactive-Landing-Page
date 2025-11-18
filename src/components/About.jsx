@@ -22,7 +22,8 @@ const About = () => {
         <div className="about-grid">
           <div className="about-image">
             <img
-              src="https://i.postimg.cc/mDk0cZ0Z/about-placeholder.jpg"
+              src="/assets/img/about-placeholder.svg"
+
               alt="About"
               className="img-fluid"
             />

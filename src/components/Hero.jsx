@@ -45,7 +45,7 @@ const Hero = () => {
         <div className="hero-image">
           <div className="hero-image-container">
             <img
-              src="/assets/img/hero-placeholder.svg"
+              src="https://i.postimg.cc/h46qdxDs/hero-placeholder.jpg"
               alt="Hero Image"
               className="img-fluid"
             />
